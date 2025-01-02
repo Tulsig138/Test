@@ -3,7 +3,7 @@ package com.library.librarymangementsystem;
 import java.io.*;
 
 public class LibraryManager {
-    private static final String FILE_PATH = "src/main/resources/books.txt";
+    private static final String FILE_PATH = "C:\\Users\\tulsi\\OneDrive\\Documents\\NetBeansProjects\\LibraryMangementSystem\\src\\main\\java\\com\\library\\librarymangementsystem\\resources\\books.txt";
 
     public void addBook(Book book) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH, true))) {
